@@ -1,0 +1,55 @@
+.tag {
+  border-radius: 14px;
+  padding: 4px 8px 4px 22px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin: 0;
+  border: none;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+  }
+}
+
+.pending {
+  background: #FFD8BF;
+
+  &::before {
+    background-color: #FA541C;
+  }
+}
+
+.processing {
+  background: #EFDBFF;
+
+  &::before {
+    background-color: #722ED1;
+  }
+}
+
+.completed {
+  background: #D9F7BE;
+
+  &::before {
+    background-color: #52C41A;
+  }
+}
+
+.failed {
+  background: #FF7875;
+
+  &::before {
+    background-color: #F5222D;
+  }
+}

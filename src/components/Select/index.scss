@@ -1,0 +1,47 @@
+@import '@/assets/styles/variable.scss';
+
+.input-select {
+  padding-bottom: 8px;
+  position: relative;
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    height: 48px;
+    padding: 0 16px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 48px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border: 1px solid $primary;
+      box-shadow: 0px 0px 20px -1px rgba(114, 46, 209, 0.5);
+    }
+
+    .ant-select-selection-search {
+      display: flex;
+      align-items: center;
+      left: 16px;
+    }
+  }
+
+  .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: 1px solid $primary;
+    box-shadow: 0px 0px 20px -1px rgba(114, 46, 209, 0.5);
+  }
+
+  .ant-select-selection-placeholder {
+    color: #BFBFBF;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .ant-select-status-error .ant-select-selector {
+    border: 1px solid $error !important;
+    box-shadow: none !important;
+  }
+}

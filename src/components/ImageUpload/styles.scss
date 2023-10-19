@@ -1,0 +1,57 @@
+.upload-image {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  .upload-image-name {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  .upload-border-none {
+    .ant-upload.ant-upload-select-picture-card {
+      border: none !important;
+      background: linear-gradient(269.66deg, #a45cff 0.16%, #3c0cff 99.76%);
+      border-radius: 50%;
+      width: 96px;
+      height: 96px;
+    }
+    .ant-upload {
+      margin: 0;
+    }
+  }
+  .lead-upload-image {
+    width: 20%;
+    .ant-upload {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .upload-image-button {
+    position: relative;
+    .btn-upload-image {
+      position: absolute;
+      bottom: -17px;
+      right: -27px;
+    }
+    .group-image-text {
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 46px;
+      color: #ffffff;
+    }
+  }
+  .upload-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

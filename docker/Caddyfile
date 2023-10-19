@@ -1,0 +1,8 @@
+:8080 {
+	root * /usr/share/caddy/html
+	try_files {path} index.html
+	file_server
+	log {
+		format console
+	}
+}

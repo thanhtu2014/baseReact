@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=JetBrains+Mono:wght@100;200;300;400;500;700;800&display=swap');
+
+@import '@/assets/styles/common.scss';
+@import '@/assets/styles/custom.scss';
+@import '@/assets/styles/form-filter.scss';
+@import '@/assets/styles/badge.scss';
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}

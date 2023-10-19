@@ -1,0 +1,105 @@
+.sider-bar {
+  background: #0B0E50 !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  position: sticky !important;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  &__logo {
+    display: flex;
+    height: 28px;
+    margin: 18px auto 26px 24px;
+    transition: all .3s cubic-bezier(.2, 0, 0, 1) 0s;
+
+    img {
+      width: 123px !important;
+      transition: width 0s cubic-bezier(.2, 0, 0, 1) 0s;
+    }
+  }
+
+  .ant-menu-dark,
+  .ant-layout-sider-trigger {
+    background: #0B0E50 !important;
+  }
+
+  .ant-menu-item {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    width: calc(100% - 16px) !important;
+    border-color: transparent !important;
+
+    .ant-menu-title-content {
+      a {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        transition: color 0s;
+      }
+    }
+  }
+
+  .ant-menu-item-selected {
+    background-color: #0C0E45 !important;
+    border-radius: 8px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: inherit;
+      border: 1px solid transparent;
+      background: linear-gradient(270deg, rgba(164, 92, 255, 0) 18.11%, #3C0CFF 100%) border-box;
+      -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: destination-out;
+      mask-composite: exclude;
+    }
+  }
+
+  .ant-menu-vertical>.ant-menu-item,
+  .ant-menu-vertical-left>.ant-menu-item,
+  .ant-menu-vertical-right>.ant-menu-item,
+  .ant-menu-inline>.ant-menu-item,
+  .ant-menu-vertical>.ant-menu-submenu>.ant-menu-submenu-title,
+  .ant-menu-vertical-left>.ant-menu-submenu>.ant-menu-submenu-title,
+  .ant-menu-vertical-right>.ant-menu-submenu>.ant-menu-submenu-title,
+  .ant-menu-inline>.ant-menu-submenu>.ant-menu-submenu-title {
+    height: 48px;
+    line-height: 48px;
+  }
+
+  &.ant-layout-sider-collapsed {
+    .sider-bar__logo {
+      margin: 18px 10px 26px 10px;
+      transition: all .3s cubic-bezier(.2, 0, 0, 1) 0s;
+
+      img {
+        width: 100% !important;
+        transition: width 0s cubic-bezier(.2, 0, 0, 1) 0s;
+      }
+    }
+
+    .ant-menu-item {
+      padding: 0 calc(50% - 32px / 2) !important;
+      transition: padding 1s;
+    }
+  }
+}
+
+.ant-tooltip.ant-menu-inline-collapsed-tooltip.ant-tooltip-placement-right {
+  .ant-tooltip-content {
+    .ant-tooltip-inner {
+      .anticon.anticon-bar-chart.ant-menu-item-icon {
+        display: none;
+      }
+    }
+  }
+}

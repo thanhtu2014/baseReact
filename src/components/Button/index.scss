@@ -1,0 +1,77 @@
+.button-container {
+  .ant-btn {
+    border-radius: 8px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .ant-btn-primary {
+    background: linear-gradient(269.66deg, #A45CFF 0.16%, #3C0CFF 99.76%);
+
+    &[disabled] {
+      color: #BFBFBF;
+      background-image: linear-gradient(0deg, rgba(164, 93, 255, 0.6), rgba(164, 93, 255, 0.6)), linear-gradient(269.66deg, #A45CFF 0.16%, #3C0CFF 99.76%);
+
+      &:hover {
+        background-image: linear-gradient(0deg, rgba(164, 93, 255, 0.6), rgba(164, 93, 255, 0.6)), linear-gradient(269.66deg, #A45CFF 0.16%, #3C0CFF 99.76%);
+      }
+
+      &:focus {
+        background-image: linear-gradient(0deg, rgba(36, 21, 96, 0.3), rgba(36, 21, 96, 0.3)), linear-gradient(269.66deg, #A45CFF 0.16%, #3C0CFF 99.76%);
+      }
+    }
+
+    &:hover {
+      background-image: linear-gradient(0deg, rgba(164, 93, 255, 0.6), rgba(164, 93, 255, 0.6)), linear-gradient(269.66deg, #A45CFF 0.16%, #3C0CFF 99.76%);
+    }
+
+    &:focus {
+      background-image: linear-gradient(0deg, rgba(36, 21, 96, 0.3), rgba(36, 21, 96, 0.3)), linear-gradient(269.66deg, #A45CFF 0.16%, #3C0CFF 99.76%);
+    }
+  }
+
+  .ant-btn-black {
+    background-color: #000000;
+    color: #FFF;
+
+    &:hover {
+      background-color: #262626;
+    }
+
+    &:focus {
+      background-color: #000000;
+    }
+  }
+
+  .ant-btn-default {
+    background-color: rgba(0, 0, 0, 0.07);
+
+    &:hover {
+      color: #000000;
+      background-color: rgba(0, 0, 0, 0.09);
+    }
+
+    &:focus {
+      color: #000000;
+      background-color: rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .ant-btn[disabled]:not(.ant-btn-primary),
+  .ant-btn[disabled]:not(.ant-btn-primary):hover,
+  .ant-btn[disabled]:not(.ant-btn-primary):focus,
+  .ant-btn[disabled]:not(.ant-btn-primary):active {
+    color: #BFBFBF;
+    background: #F5F5F5;
+    box-shadow: none;
+  }
+}

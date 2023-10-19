@@ -1,0 +1,96 @@
+@import '@/assets/styles/variable.scss';
+
+.hestia-input {
+  padding-bottom: 8px;
+  position: relative;
+
+  input {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 16px;
+    height: 48px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+
+    &::placeholder {
+      color: #BFBFBF;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      line-height: 24px;
+      font-weight: 400;
+    }
+
+    &:hover,
+    &:focus {
+      border: 1px solid $primary;
+      box-shadow: 0px 0px 20px -1px rgba(114, 46, 209, 0.5);
+    }
+  }
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    display: none;
+  }
+
+  &__label {
+    color: $gray-12;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    margin-bottom: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+  .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+    border: 1px solid $error;
+  }
+
+  &__eyes {
+    top: 20px;
+    right: 10px;
+    position: absolute;
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__info-icon {
+    width: 14px;
+    height: 14px;
+    background: url('/assets/images/icons/info-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-top: 3px;
+  }
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.ant-form-item-explain-error {
+  margin-bottom: 12px;
+  color: $error;
+  margin-top: -4px;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+
+  &::before {
+    content: '';
+    display: block;
+    background: url('/assets/images/icons/alert-circle.svg') no-repeat;
+    width: 14px;
+    height: 14px;
+  }
+}

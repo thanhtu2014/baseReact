@@ -1,0 +1,31 @@
+.upload-zone {
+  background: #F9F0FF !important;
+  border-radius: 16px !important;
+  border: none !important;
+  &__icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-image: url('/assets/images/icons/image-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px !important;
+  }
+  &__hint {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #8C8C8C;
+    margin-bottom: 18px !important;
+  }
+}

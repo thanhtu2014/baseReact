@@ -1,0 +1,390 @@
+{
+  "button": {
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "back_to_home": "Back to home",
+    "quick_send": "Quick send",
+    "checkout": "Checkout",
+    "edit": "Edit",
+    "create": "Create"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "contact_us": "Contact Us"
+  },
+  "login": {
+    "form": {
+      "fields": {
+        "email": "Email",
+        "password": "Password",
+        "remember_me": "Remember me"
+      },
+      "placeholder": {
+        "email": "Enter your email",
+        "password": "Enter your password"
+      },
+      "errors": {
+        "email": {
+          "required": "Email is required",
+          "not_valid": "Email is not valid"
+        },
+        "password": {
+          "required": "Password is required"
+        }
+      },
+      "welcome": "Welcome",
+      "welcome_back": "Welcome back, please login to your account."
+    },
+    "forgot_password": "Forgot Password?",
+    "no_account_yet": "Don't have an account yet?",
+    "register_text": "Register",
+    "btn_change_password": "Change Password"
+  },
+  "sign_up": {
+    "form": {
+      "title": "Create Account",
+      "have_account": "Have an account?",
+      "check_box": "Read & Agree with Terms of Service and Privacy Policy already",
+      "fields": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "phone_number": "Phone Number"
+      },
+      "placeholder": {
+        "first_name": "Enter your first name",
+        "last_name": "Enter your last name",
+        "phone_number": "Enter your phone number",
+        "confirm_password": "Enter your confirm password",
+        "channel": "Select which channel are you from"
+      },
+      "errors": {
+        "first_name": {
+          "required": "First name is required"
+        },
+        "last_name": {
+          "required": "Last name is required"
+        },
+        "phone_number": {
+          "required": "Phone number is required",
+          "invalid": "Phone number is invalid"
+        },
+        "confirm_password": {
+          "not_match": "Confirm password do not match!",
+          "required": "Confirm password is required"
+        },
+        "new_password": {
+          "invalid_value": "New password must be at least 6 characters"
+        }
+      }
+    },
+    "signin_link": "Sign In",
+    "login_link": "Login"
+  },
+  "reset_password": {
+    "back_to_login": "Back to login",
+    "reset_your_password": "Reset Your Password",
+    "eter_registered_password": "Enter your registered password",
+    "submit": "Submit",
+    "successfully_page": {
+      "send_seccess": "Sent Request Successful!",
+      "check_email": "Check your email to get the link to reset your password.",
+      "go_to_login": "Go to Login"
+    }
+  },
+  "dashboard": {
+    "page_title": "Dashboard",
+    "transactiosn_section": {
+      "title": "Transactions"
+    },
+    "transaction_table": {
+      "transaction_no": "No",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "has_datas": {
+      "ten_page": "10/ page"
+    }
+  },
+  "subscription_page": {
+    "renew": "Renew",
+    "change_plan": "Change Plan",
+    "current_plan": "Current Plan",
+    "subcribe_now": "Subcribe Now",
+    "best_seller": "Best Seller",
+    "packages": {
+      "Package S": "Package S",
+      "Package A": "Package A",
+      "Package B": "Package B",
+      "Package C": "Package C",
+      "Package D": "Package D",
+      "Package E": "Package E",
+      "Enterprise Package": "Enterprise Package",
+      "1_year": "1 Year",
+      "2_years": "2 Years",
+      "3_years": "3 Years",
+      "baht": "บาท",
+      "buy_now": "Buy Now",
+      "note": "Note"
+    }
+  },
+  "sms_quick_send": {
+    "quick_send": "Quick send",
+    "message": "Message",
+    "send": "Send",
+    "placeholder": {
+      "phone_number": "Enter Phone Number"
+    },
+    "success_code": {
+      "send_sms": "Send SMS <br/> Your SMS has been sent."
+    },
+    "error_code": {
+      "receiver": {
+        "not_valid": "Receiver is invalid",
+        "required": "Please Enter Receiver Phone Number"
+      },
+      "select_sendername": {
+        "required": "Please Select Sender Name"
+      },
+      "message": {
+        "required": "Please Enter Message"
+      }
+    }
+  },
+  "status_action": {
+    "enabled": "Enable",
+    "disabled": "Disabled"
+  },
+  "upload_file": {
+    "import_file": "Import File",
+    "validate_data": "Validate Data",
+    "successful": "Successful",
+    "description": "Description",
+    "upload_file": "Upload File",
+    "upload_a_file": "Upload a File",
+    "cannot_upload_file": "Cannot Upload File",
+    "invalid_file": "Invalid File",
+    "next": "Next",
+    "back_to_try_again": "Back to Try Again",
+    "close": "Close",
+    "placeholder": {
+      "description": "Enter Description"
+    },
+    "error_code": {},
+    "success_code": {
+      "SMS_SENDING_SUCCESS": {
+        "title": "Your SMS sending request has been recorded successfully!",
+        "desc": ""
+      }
+    }
+  },
+  "error_code": {
+    "UNAUTHORIZED": {
+      "title": "Not Authorized",
+      "desc": "Not Authorized"
+    },
+    "INVALID_REQUEST": {
+      "title": "Invalid Request",
+      "desc": "Invalid Request"
+    },
+    "EMAIL_ALREADY_EXISTS": {
+      "title": "Invalid Request",
+      "desc": "Email Already Exists"
+    },
+    "INVALID_TOKEN": {
+      "title": "Not authorization!",
+      "desc": "Token is invalid"
+    },
+    "PHONE_INVALID_FORMAT": {
+      "title": "Invalid Request",
+      "desc": "Phone number is invalid format"
+    },
+    "EMAIL_NOT_EXISTS": {
+      "title": "Invalid Request",
+      "desc": "Email was not exists"
+    },
+    "INVALID_RESET_TOKEN_OR_EXPIRED": {
+      "title": "Invalid Token",
+      "desc": "Token reset invalid or expired"
+    },
+    "IMAGE_FORMAT": {
+      "title": "Invalid Request",
+      "desc": "You can only upload JPG/PNG file!"
+    }
+  },
+  "success_code": {
+    "SIGNUP_SUCCESS": {
+      "title": "Sign up successful",
+      "desc": ""
+    },
+    "UPDATE_AVATAR_SUCCESS": {
+      "title": "Update avatar successful",
+      "desc": ""
+    },
+    "PROFILE_SUCCESS": {
+      "title": "Update account successful",
+      "desc": ""
+    },
+    "PASSWORD_SUCCESS": {
+      "title": "Update password successful",
+      "desc": ""
+    }
+  },
+  "unknown_message": "Unknown",
+  "customer_info": {
+    "form": {
+      "fields": {
+        "country": "Country",
+        "city": "City/Province",
+        "district": "District",
+        "zip_code": "Zip code",
+        "address": "Address",
+        "save_info": "Save information as Billing Information"
+      },
+      "errors": {
+        "country": {
+          "required": "Country is required"
+        },
+        "city": {
+          "required": "City/Province is required"
+        },
+        "district": {
+          "required": "District is required"
+        },
+        "zip_code": {
+          "required": "Zip code is required"
+        },
+        "address": {
+          "max_length": "Address is invalid"
+        }
+      },
+      "btn_submit": "Checkout"
+    }
+  },
+  "forgot_password": {
+    "title_btn": "Forgot Password",
+    "form": {
+      "title": "Reset Your Password",
+      "email": "Enter your registered email.",
+      "back": "Back to login",
+      "update_password": "Update Your Password",
+      "submit": "Submit"
+    },
+    "success": {
+      "title": "Sent Request Successful!",
+      "message": "Check your email to get the link to reset your password."
+    },
+    "not_verify": {
+      "title": "Your token is invalid"
+    }
+  },
+  "transactions_trans": {
+    "date": "Date",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "search": "Search",
+    "reset": "Reset"
+  },
+  "transactions": {
+    "detail": {
+      "additional_information": {
+        "title": "Additional Information",
+        "created_by": "Created By",
+        "payment_method": "Payment Method",
+        "approved_date": "Approved Date",
+        "reject_reason": "Reject Reason"
+      }
+    }
+  },
+  "reports_page": {
+    "page_title": "Reports"
+  },
+  "profile_page": {
+    "page_title": "Profile",
+    "select_tabs": {
+      "account": "Account"
+    },
+    "form": {
+      "fields": {
+        "current_password": "Current Password",
+        "new_password": "New Password",
+        "confirm_password": "Confirm Password"
+      }
+    },
+    "drawer": {
+      "account": "Edit Account Info"
+    },
+    "account": {
+      "email": "Email",
+      "first_name": "First Name",
+      "last_name": "Last Name"
+    },
+    "placehoder": {
+      "current_password": "Enter current password",
+      "new_password": "Enter new password",
+      "confirm_password": "Confirm new password"
+    },
+    "errols": {
+      "current_password": {
+        "require": "Please input your current password"
+      },
+      "new_password": {
+        "require": "Please input your password!"
+      },
+      "confirm_password": {
+        "require": "Please confirm your password!",
+        "invalid_request": "The two passwords that you entered do not match!"
+      }
+    },
+    "btn_discard": "Discard",
+    "btn_save": "Save Changes"
+  },
+  "contact_us": {
+    "page_title": "Contact Us",
+    "quick_send": {
+      "form": {
+        "message_content": {
+          "label": "Message",
+          "message_max_length": "More than {{max}} characters cannot be sent."
+        },
+        "btn_send": "Send"
+      },
+      "preview": {
+        "today": "Today"
+      }
+    }
+  },
+  "common": {
+    "btn_search": "Search",
+    "btn_reset": "Reset",
+    "btn_submit": "Submit",
+    "btn_re_submit": "Re-Submit",
+    "internal_server_error": "Internal server error",
+    "authentication": {
+      "authen": "Authentication"
+    },
+    "warning": "Make sure you save it. You won't be able to access it again.",
+    "form": {
+      "errors": {}
+    },
+    "drawer": {
+      "btn_close": "Close"
+    },
+    "error_table": {
+      "title": "Error Table"
+    },
+    "header": {
+      "logout": {
+        "title": "Are you want to log out?",
+        "btn_yes": "Yes",
+        "btn_no": "No"
+      }
+    },
+    "table": {
+      "form_filter": {},
+      "columns": {}
+    },
+    "constants": {}
+  }
+}
